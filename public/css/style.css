@@ -6,66 +6,67 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-.logo{
-    width: 300px;
-}
-.banner {
-    width: 100%;
-}
-
-.titulares {
-    font-size: 24px;
-    color: #666;
-    ;
-}
-
-.precio {
-    font-size: 18px;
-}
-
-.descuento {
-    font-size: 16px;
-    color: #39b54a;
-    ;
-}
-
-.descripciones {
-    font-size: 16px;
-}
-
-.img-index {
-    width: 350px;
-}
-
-main {
-    text-align: center;
     background-color: #ebebeb;
 }
-
-footer {
-    background-color: white;
-    text-align: center;
+/* HEADER */
+header{
+    width: 100%;
+}
+.contenedor-navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#EAC926;
 }
 
-#icon-footer {
-    color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 10px;
+ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
 }
-
+.banner{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.img-banner{
+    width: 100vw;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
 .burger-menu {
+    display: flex;
+    grid-area: 3;
+    grid-column: span 2;
+}
+.burger-menu i {
+    border: 1px solid #1259c3;
+    border-radius: 5px;
+    padding: 10px;
     background-color: #1259c3;
     color: white;
-    border-radius: 4px;
-    width: 15px;
 }
-
-#header {
-    background-color: #EAC926;
+/* PRODUCTOS */
+.titulares{
+    font-size: 24px;
 }
-
-#texto-header {
-    text-align: center;
+.precio{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+}
+.descripcion-producto{
+    font-size: 16px;
+}
+.img-productos{
+    margin: 10px;
+    height: 250px;
+    max-width: 210px;
+    width: auto;
+    border-bottom: solid #ebebeb 1px;
 }
